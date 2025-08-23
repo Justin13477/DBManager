@@ -38,7 +38,7 @@ private:
 	std::map<SQLOperation, std::string> sqlTemplates = // for mapping what sql operation to use useful abstraction when interacting with the db
 	{
 		// set up all functions to accept the correct parameters
-		{SQLOperation::CreateTable, "CREATE TABLE IF NOT EXISTS {} ({} {} PRIMARY KEY AUTOINCREMENT);"},
+		{SQLOperation::CreateTable, "CREATE TABLE IF NOT EXISTS {} ({} {} );"},
 		{SQLOperation::DropTable, "DROP TABLE IF EXISTS {};"}, 
 		{SQLOperation::RenameTable, "ALTER TABLE {} RENAME TO {};"},
 		{SQLOperation::AddColumn, "ALTER TABLE {} ADD COLUMN {} {};"},

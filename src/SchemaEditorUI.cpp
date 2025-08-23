@@ -162,7 +162,12 @@ void SchemaEditorUI::RenderTableOpWindow()
 				ImGui::Text("Select Table");
 				ImGui::SameLine();
 				ImGui::Combo("##select table", &data.selectedTableComboIndex, data.items.data(), (int)data.items.size());
-				std::string table = data.items[data.selectedTableComboIndex];
+				std::string table;
+				if(data.tableNames.size() < data.selectedTableComboIndex && !data.tableNames.empty())
+				{
+					std::string table = data.items[data.selectedTableComboIndex];
+				}
+				
 
 				ImGui::Text("Clause");
 				ImGui::SameLine();
@@ -338,9 +343,7 @@ void SchemaEditorUI::Render(float& _maxWindowWidth, float& _maxWindowHeight)
 			{
 				RenderColumnOpWindow();
 			}
-			if (ImGui::Button("Empty Button"))
-			{
-			}
+
 			
 			ImGui::EndChild();
 		}
