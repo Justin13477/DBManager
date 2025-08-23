@@ -8,7 +8,16 @@ void SchemaEditorUI::refresh()
 	data.tableNames.clear();
 	data.colNames.clear();
 	data.tableNames = se.GetTables();
-	data.queryResults = se.GetTableData(data.tableNames[data.selectedTableIndex], data.colNames);
+	if (!data.tableNames.empty() && data.selectedTableIndex < data.tableNames.size())
+	{
+		data.queryResults = se.GetTableData(data.tableNames[data.selectedTableIndex], data.colNames);
+	}
+	else
+	{
+		data.queryResults.clear();
+		data.selectedTableIndex = 0;
+	}
+	
 	//data.colNames = se.GetColNames(data.tableNames[data.selectedTableIndex]);
 	data.refreshBuffers(se);
 }
@@ -328,6 +337,9 @@ void SchemaEditorUI::Render(float& _maxWindowWidth, float& _maxWindowHeight)
 			if (data.openColumnOpWindow)
 			{
 				RenderColumnOpWindow();
+			}
+			if (ImGui::Button("Empty Button"))
+			{
 			}
 			
 			ImGui::EndChild();

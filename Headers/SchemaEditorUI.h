@@ -72,9 +72,9 @@ private:
 		bool openTableData;
 
 		// open operation windows
-		bool openTableOpWindow;
-		bool openColumnOpWindow;
-		bool openInsertOpWindow;
+		bool openTableOpWindow = false;
+		bool openColumnOpWindow = false;
+		bool openInsertOpWindow = false;
 
 		// for selecting 
 		bool tableSelected;
