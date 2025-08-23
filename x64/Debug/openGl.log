@@ -1,0 +1,67 @@
+﻿  Scanning sources for module dependencies...
+  App.cpp
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\Window.h(28,34): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/App.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\Window.h(29,35): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/App.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\LayoutDimensions.h(99,40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/App.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\LayoutDimensions.h(109,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/App.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\LayoutDimensions.h(131,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/App.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\App.cpp(18,28): warning C4244: '=': conversion from 'GLint' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\App.cpp(19,29): warning C4244: '=': conversion from 'GLint' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\App.cpp(30,43): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\App.cpp(30,21): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\App.cpp(68,57): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\App.cpp(69,59): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  LoggerUI.cpp
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\Window.h(28,34): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/LoggerUI.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\Window.h(29,35): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/LoggerUI.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\LayoutDimensions.h(99,40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/LoggerUI.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\LayoutDimensions.h(109,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/LoggerUI.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\LayoutDimensions.h(131,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/LoggerUI.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\LoggerUI.cpp(11,19): warning C4244: '=': conversion from 'GLint' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\LoggerUI.cpp(12,20): warning C4244: '=': conversion from 'GLint' to 'float', possible loss of data
+  Window.cpp
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\Window.h(28,34): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Window.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Headers\Window.h(29,35): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Window.cpp')
+  
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(144,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(145,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(149,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(150,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(152,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(153,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\src\Window.cpp(74,1): warning C4715: 'Window::Initialise': not all control paths return a value
+  shell.c
+  sqlite3.c
+  Generating Code...
+LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+App.obj : error LNK2001: unresolved external symbol glad_glClear
+App.obj : error LNK2001: unresolved external symbol glad_glUseProgram
+Window.obj : error LNK2019: unresolved external symbol gladLoadGLLoader referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2001: unresolved external symbol glad_glEnable
+Window.obj : error LNK2001: unresolved external symbol glad_glGetString
+C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\x64\Debug\openGl.exe : fatal error LNK1120: 5 unresolved externals

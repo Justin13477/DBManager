@@ -1,0 +1,40 @@
+[2025-08-19 12:06:46] [INFO] Opened DB
+[2025-08-19 12:06:46] [INFO] C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Test.db
+[2025-08-19 12:06:48] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-19 12:06:48] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:48] [DEBUG] SELECT * FROM users
+[2025-08-19 12:06:48] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:48] [DEBUG] Buffers refreshed
+[2025-08-19 12:06:48] [DEBUG] SELECT * FROM users
+[2025-08-19 12:06:48] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:51] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-19 12:06:51] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:51] [DEBUG] SELECT * FROM products
+[2025-08-19 12:06:51] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:52] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-19 12:06:52] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:52] [DEBUG] SELECT * FROM users
+[2025-08-19 12:06:52] [INFO] Query Executed successfully! 
+[2025-08-19 12:06:54] [INFO] Closed db
+[2025-08-19 12:21:32] [INFO] Opened DB
+[2025-08-19 12:21:32] [INFO] C:\dev\GUI Applications\imgui_sqlite_opengl_src_project\openGl\Test.db
+[2025-08-19 12:21:36] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-19 12:21:36] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:36] [DEBUG] SELECT * FROM users
+[2025-08-19 12:21:36] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:36] [DEBUG] SELECT * FROM users
+[2025-08-19 12:21:36] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:40] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-19 12:21:40] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:40] [DEBUG] SELECT * FROM users
+[2025-08-19 12:21:40] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:40] [DEBUG] Buffers refreshed
+[2025-08-19 12:21:44] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-19 12:21:44] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:44] [DEBUG] SELECT * FROM users
+[2025-08-19 12:21:44] [INFO] Query Executed successfully! 
+[2025-08-19 12:21:44] [DEBUG] Buffers refreshed
+[2025-08-19 12:23:34] [INFO] Closed db
+[2025-08-22 13:05:04] [INFO] Opened DB
+[2025-08-22 13:05:04] [INFO] C:\dev\my_apps\DBManager\DBManager\Test.db
+[2025-08-22 13:05:09] [INFO] Closed db

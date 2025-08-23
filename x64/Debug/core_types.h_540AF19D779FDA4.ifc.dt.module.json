@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\core_types.obj",
+            "outputs": [
+                "x64\\Debug\\core_types.h_540AF19D779FDA4.ifc.dt.module.json",
+                "x64\\Debug\\core_types.h_540AF19D779FDA4.ifc.dt.d.json",
+                "x64\\Debug\\core_types.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\dev\\GUI Applications\\imgui_sqlite_opengl_src_project\\openGl\\Headers\\core_types.h",
+                    "source-path": "c:\\dev\\gui applications\\imgui_sqlite_opengl_src_project\\opengl\\headers\\core_types.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

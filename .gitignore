@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.so
+*.dylib
+
+# IDE/Editor
+.vs/
+*.suo
+*.user
+*.vcxproj*
+*.sln
+
+# CMake
+CMakeCache.txt
+CMakeFiles/

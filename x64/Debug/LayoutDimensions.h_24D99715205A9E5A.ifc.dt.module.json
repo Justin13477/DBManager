@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\LayoutDimensions.obj",
+            "outputs": [
+                "x64\\Debug\\LayoutDimensions.h_24D99715205A9E5A.ifc.dt.module.json",
+                "x64\\Debug\\LayoutDimensions.h_24D99715205A9E5A.ifc.dt.d.json",
+                "x64\\Debug\\LayoutDimensions.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\dev\\GUI Applications\\imgui_sqlite_opengl_src_project\\openGl\\Headers\\LayoutDimensions.h",
+                    "source-path": "c:\\dev\\gui applications\\imgui_sqlite_opengl_src_project\\opengl\\headers\\layoutdimensions.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
