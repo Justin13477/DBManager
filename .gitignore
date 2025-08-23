@@ -10,7 +10,7 @@ bin/
 *.so
 *.dylib
 
-# IDE/Editor
+# IDE / editor
 .vs/
 *.suo
 *.user
@@ -18,5 +18,5 @@ bin/
 *.sln
 
 # CMake
-CMakeCache.txt
 CMakeFiles/
+CMakeCache.txt
