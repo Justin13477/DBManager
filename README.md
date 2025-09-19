@@ -29,7 +29,7 @@ This project was built as a learning exercise to:
 
 ### Build
 ```bash
-git clone https://github.com/yourusername/DBManager.git
+git clone https://github.com/Justin13477/DBManager.git
 cd DBManager
 mkdir build && cd build
 cmake ..
