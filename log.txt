@@ -1,0 +1,66 @@
+[2025-08-22 20:34:07] [INFO] Opened DB
+[2025-08-22 20:34:07] [INFO] C:\dev\my_apps\DBManager\DBManager\example.db
+[2025-08-22 20:34:08] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-22 20:34:08] [INFO] Query Executed successfully! 
+[2025-08-22 20:34:08] [DEBUG] Buffers refreshed
+[2025-08-22 20:34:08] [DEBUG] SELECT * FROM people
+[2025-08-22 20:34:08] [INFO] Query Executed successfully! 
+[2025-08-22 20:34:11] [INFO] Closed db
+[2025-08-23 09:56:41] [INFO] Opened DB
+[2025-08-23 09:56:41] [INFO] C:\dev\my_apps\DBManager\DBManager\example.db
+[2025-08-23 09:56:42] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-23 09:56:42] [INFO] Query Executed successfully! 
+[2025-08-23 09:56:42] [DEBUG] Buffers refreshed
+[2025-08-23 09:56:42] [DEBUG] SELECT * FROM people
+[2025-08-23 09:56:42] [INFO] Query Executed successfully! 
+[2025-08-23 09:56:46] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-23 09:56:46] [INFO] Query Executed successfully! 
+[2025-08-23 09:56:46] [DEBUG] SELECT * FROM departments
+[2025-08-23 09:56:46] [INFO] Query Executed successfully! 
+[2025-08-23 09:56:47] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-08-23 09:56:47] [INFO] Query Executed successfully! 
+[2025-08-23 09:56:47] [DEBUG] SELECT * FROM people
+[2025-08-23 09:56:47] [INFO] Query Executed successfully! 
+[2025-08-23 09:56:59] [INFO] Closed db
+[2025-09-09 11:23:05] [INFO] Opened DB
+[2025-09-09 11:23:05] [INFO] C:\dev\my_apps\DBManager\DBManager\example.db
+[2025-09-09 11:23:09] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-09-09 11:23:09] [INFO] Query Executed successfully! 
+[2025-09-09 11:23:09] [DEBUG] Buffers refreshed
+[2025-09-09 11:23:09] [DEBUG] SELECT * FROM people
+[2025-09-09 11:23:09] [INFO] Query Executed successfully! 
+[2025-09-09 11:23:18] [INFO] Closed db
+[2025-09-09 11:24:14] [INFO] Opened DB
+[2025-09-09 11:24:14] [INFO] C:\dev\my_apps\DBManager\DBManager\example.db
+[2025-09-09 11:24:16] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-09-09 11:24:16] [INFO] Query Executed successfully! 
+[2025-09-09 11:24:16] [DEBUG] Buffers refreshed
+[2025-09-09 11:24:16] [DEBUG] SELECT * FROM people
+[2025-09-09 11:24:16] [INFO] Query Executed successfully! 
+[2025-09-09 11:24:19] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-09-09 11:24:19] [INFO] Query Executed successfully! 
+[2025-09-09 11:24:19] [DEBUG] SELECT * FROM people
+[2025-09-09 11:24:19] [INFO] Query Executed successfully! 
+[2025-09-09 11:24:19] [DEBUG] Buffers refreshed
+[2025-09-09 11:24:22] [INFO] Closed db
+[2025-09-09 11:30:39] [INFO] Opened DB
+[2025-09-09 11:30:39] [INFO] C:\dev\my_apps\DBManager\DBManager\example.db
+[2025-09-09 11:30:41] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-09-09 11:30:41] [INFO] Query Executed successfully! 
+[2025-09-09 11:30:41] [DEBUG] Buffers refreshed
+[2025-09-09 11:30:41] [DEBUG] SELECT * FROM people
+[2025-09-09 11:30:41] [INFO] Query Executed successfully! 
+[2025-09-09 11:30:42] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-09-09 11:30:42] [INFO] Query Executed successfully! 
+[2025-09-09 11:30:42] [DEBUG] SELECT * FROM people
+[2025-09-09 11:30:42] [INFO] Query Executed successfully! 
+[2025-09-09 11:30:42] [DEBUG] Buffers refreshed
+[2025-09-09 11:30:46] [INFO] Closed db
+[2025-09-19 13:11:18] [INFO] Opened DB
+[2025-09-19 13:11:18] [INFO] C:\dev\my_apps\DBManager\DBManager\example.db
+[2025-09-19 13:11:19] [DEBUG] SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+[2025-09-19 13:11:19] [INFO] Query Executed successfully! 
+[2025-09-19 13:11:19] [DEBUG] Buffers refreshed
+[2025-09-19 13:11:19] [DEBUG] SELECT * FROM people
+[2025-09-19 13:11:19] [INFO] Query Executed successfully! 
+[2025-09-19 13:11:21] [INFO] Closed db

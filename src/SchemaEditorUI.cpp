@@ -373,10 +373,7 @@ void SchemaEditorUI::Render(float& _maxWindowWidth, float& _maxWindowHeight)
 			// refresh tables on click instead of every frame
 			if (ImGui::Button("Refresh Tables"))
 			{
-				data.tableNames.clear();
-				data.colNames.clear();
-				data.tableNames = se.GetTables();
-				data.queryResults = se.GetTableData(data.tableNames[data.selectedTableIndex], data.colNames);
+				refresh();
 			}
 			ImGui::Separator();
 			for (int i = 0; i < data.tableNames.size(); ++i)
